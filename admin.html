@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Gurung Ember</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Panel</h1>
+    </header>
+
+    <main id="admin-login">
+        <section>
+            <h2>Login</h2>
+            <input type="password" id="password" placeholder="Enter password">
+            <button id="login-button">Login</button>
+        </section>
+    </main>
+
+    <main id="admin-panel" style="display: none;">
+        <section id="menu-management">
+            <h2>Menu Management</h2>
+            <div id="menu-editor">
+                <!-- Menu editor will be loaded here -->
+            </div>
+            <button id="save-menu">Save Changes</button>
+        </section>
+    </main>
+
+    <script src="admin.js"></script>
+</body>
+</html>
